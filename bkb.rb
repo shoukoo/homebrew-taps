@@ -3,11 +3,11 @@ class Bkb < Formula
   homepage "https://github.com/shoukoo/bkb"
   url "https://github.com/shoukoo/bkb/releases/download/0.1.6/bkb-darwin-amd64.tar.gz"
   version "0.1.6"
-  sha256 "539dd8372144183c642e47795174d7f95b030fafc3f1286dcd0b8ef214db0aeb"
+  sha256 "11902370b7ef3ed3214865f51d3ee523ba3b02a24120d90f38b4d501169bc679"
 
   if OS.linux? && Hardware::CPU.is_64_bit?
     url "https://github.com/shoukoo/bkb/releases/download/0.1.6/bkb-darwin-amd64.tar.gz"
-    sha256 "539dd8372144183c642e47795174d7f95b030fafc3f1286dcd0b8ef214db0aeb"
+    sha256 "11902370b7ef3ed3214865f51d3ee523ba3b02a24120d90f38b4d501169bc679"
   end
 
   def install
